@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.section-one {
+    background-color: #1F2937;
+    color: white;
+}
+
+.bar {
+    display: flex;
+    background-color: gray;
+    padding: 15px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+    align-items: center;
+}
+
+.header-left {
+    padding: 3em;
+    margin: 2em;
+}
+
+.header-right {
+    margin: 2em;
+}
+
+.content-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 85px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.page-links {
+    margin-left: auto;
+    gap: 2em;
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.page-links a {
+    color: white;
+}
+
+img {
+    height: 200px;
+    border-radius: 20px;
+}
+
+.button-view {
+    margin-top: 35px;
+    background: white;
+    border-radius: 15px;
+    width: 150px;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+}
+
+.sub-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: -10px;
+}
+
+.information .box {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 1em;
+    padding: 50px;
+}
+
+.information .third img {
+    margin-top: -20px;
+}
+
+.section-three {
+    background-color: lightgray;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-three .quote {
+    font-size: 18px;
+    margin: 2em;
+}
+
+.section-three .quoteby {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.section-four {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    background: #1F2937;
+    border-radius: 20px;
+    color: white;
+}
+
+.email {
+    height: 40px;
+    width: 110px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 3em;
+    margin-left: -10px;
+}
+
+.pop-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.footer {
+    height: 30px;
+    background-color: grey;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
